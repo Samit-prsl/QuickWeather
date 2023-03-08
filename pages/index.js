@@ -34,7 +34,7 @@ export default function Home() {
         <input type="text" placeholder='Enter Here' style={{marginTop:'40px',padding:'10px',fontSize:'15px',fontFamily:'sans-serif'}} onChange={(e)=>{
                 setCity(e.target.value)
         }} />
-        <button style={{margin:'20px',padding:'10px',fontSize:'15px',fontFamily:'fantasy',borderRadius:'5px'}} onClick={data}>Click Here!</button>
+        <button style={{margin:'10px',padding:'10px',fontSize:'15px',fontFamily:'fantasy',borderRadius:'5px'}} onClick={data}>Click Here!</button>
        {Object.keys(weatherData).length!==0?
        <>
        <div>
